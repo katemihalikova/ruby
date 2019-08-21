@@ -4,7 +4,7 @@ if pole.length % 2 == 0
   # sudý počet prvků
   serazene_pole = pole.sort
   index = serazene_pole.length / 2
-  p (serazene_pole[index - 1] + serazene_pole[index]) / 2
+  p (serazene_pole[index - 1] + serazene_pole[index]) / 2.0
 else
   # lichý počet prvků
   serazene_pole = pole.sort
